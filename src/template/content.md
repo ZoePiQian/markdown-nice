@@ -5,11 +5,9 @@
 - 支持自定义样式的 Markdown 编辑器
 - 支持微信公众号、知乎一键复制
 
-![](https://img.icons8.com/ios/60/000000/external-candy-easter-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png)
-
 ## 2 主题
 
-**https://等兔兔的域名/**
+**https://输入兔兔的域名/**
 
 欢迎访问 Rabbit Hole 网站
 
@@ -124,18 +122,16 @@ _这个是斜体_
 
 ### 4.1 脚注
 
-> 支持平台：微信公众号、知乎。
-
-脚注与链接的区别如下所示：
+> 脚注与链接的区别如下所示：
 
 ```markdown
 链接：[文字](链接)
 脚注：[文字](脚注解释 "脚注名字")
 ```
 
-有人认为在[大前端时代](https://en.wikipedia.org/wiki/Front-end_web_development "Front-end web development")的背景下，移动端开发（Android、IOS）将逐步退出历史舞台。
+[商业内观](https://if.zoepi.online")是一份线上电子杂志。
 
-[全栈工程师](是指掌握多种技能，并能利用多种技能独立完成产品的人。 "什么是全栈工程师")在业务开发流程中起到了至关重要的作用。
+[商业内观](穿梭在人类用思维模型构建的商业世界里，却时常想摆渡回到「轴心时代」的宇宙空间站。 "什么是商业内观？")不定期更新，欢迎[订阅](https://rss.zoepi.online)。
 
 脚注内容请拉到最下面观看。
 
