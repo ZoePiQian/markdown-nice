@@ -15,7 +15,7 @@ class Version extends Component {
       <div id="nice-menu-version" className="nice-menu-item" onClick={this.handleClick}>
         <span>
           <span className="nice-menu-flag" />
-          <span className="nice-menu-name">版本信息</span>
+          <span className="nice-menu-name">Welcome to Rabbit Hole</span>
         </span>
       </div>
     );
