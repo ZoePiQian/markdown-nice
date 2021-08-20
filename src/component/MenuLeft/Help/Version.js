@@ -7,7 +7,7 @@ import "../common.css";
 @observer
 class Version extends Component {
   handleClick = () => {
-    this.props.dialog.setVersionOpen(true);
+    this.props.dialog.setVersionOpen(false);
   };
 
   render() {
