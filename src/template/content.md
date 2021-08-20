@@ -9,7 +9,7 @@
 
 **https://输入兔兔的域名/**
 
-欢迎访问 Rabbit Hole 网站
+>>欢迎访问 Rabbit Hole 网站
 
 ## 3 通用语法
 
