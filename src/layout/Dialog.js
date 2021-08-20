@@ -9,20 +9,20 @@ import SitDownDialog from "../component/Dialog/SitDownDialog";
 import TutorialDialog from "../component/Dialog/TutorialDialog";
 
 class Dialog extends Component {
-render() {
-return (
-<div>
-<ImageDialog />
-<LinkDialog />
-<AboutDialog />
-<VersionDialog />
-<FormDialog />
-<HistoryDialog />
-<SitDownDialog />
-<TutorialDialog />
-</div>
-);
-}
+  render() {
+    return (
+      <div>
+        <ImageDialog />
+        <LinkDialog />
+        <AboutDialog />
+        <VersionDialog />
+        <FormDialog />
+        <HistoryDialog />
+        <SitDownDialog />
+        <TutorialDialog />
+      </div>
+    );
+  }
 }
 
 export default Dialog;
