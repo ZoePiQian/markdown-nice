@@ -93,7 +93,7 @@ class Lib extends Component {
           <Result
             icon={<SvgIcon name="smile" style={style.svgIcon} />}
             title="请使用 PC 端打开排版工具"
-            subTitle="更多 Markdown Nice 信息，请扫码关注公众号「编程如画」"
+            subTitle="Welcome to Rabbit Hole"
             extra={<img alt="" style={{width: "100%"}} src="https://my-wechat.mdnice.com/wechat.jpg" />}
           />
         )}
