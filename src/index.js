@@ -15,7 +15,7 @@ ReactDOM.render(
       isGiteeOpen: true,
       isGitHubOpen: true,
     }}
-    defaultTitle="Markdown Nice"
+    defaultTitle="Rabbit Hole"
   />,
   document.getElementById("root"),
 );
