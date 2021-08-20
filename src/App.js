@@ -7,6 +7,7 @@ import {observer, inject} from "mobx-react";
 import classnames from "classnames";
 import throttle from "lodash.throttle";
 
+import Dialog from "./layout/Dialog";
 import Navbar from "./layout/Navbar";
 import Footer from "./layout/Footer";
 import Sidebar from "./layout/Sidebar";
