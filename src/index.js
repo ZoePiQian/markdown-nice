@@ -15,7 +15,7 @@ ReactDOM.render(
       isGiteeOpen: true,
       isGitHubOpen: true,
     }}
-    defaultTitle="Rabbit Hole"
+    defaultTitle="🐰Rabbit Hole🕳"
   />,
   document.getElementById("root"),
 );
