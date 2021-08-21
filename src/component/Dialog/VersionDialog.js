@@ -2,8 +2,6 @@ import React, {Component} from "react";
 import {observer, inject} from "mobx-react";
 import {Modal, Timeline, Button} from "antd";
 import axios from "axios";
-import {NEWEST_VERSION} from "../../utils/constant";
-import SvgIcon from "../../icon";
 
 import "./VersionDialog.css";
 
@@ -55,20 +53,20 @@ class VersionDialog extends Component {
       }
       this.setState({...data});
     } catch (err) {
-      console.error("读取最新Mdnice版本信息错误");
+      console.error("读取最新版本信息错误");
     }
   };
 
   render() {
     return (
       <Modal
-        title="版本更新"
+        title="欢迎使用🐰Rabbit Hole微信编辑器"
         visible={this.props.dialog.isVersionOpen}
         onOk={this.handleOk}
         onCancel={this.handleCancel}
         footer={[
           <Button key="submit" type="primary" onClick={this.handleOk}>
-            确认
+            开始探索吧
           </Button>,
         ]}
         destroyOnClose
@@ -86,16 +84,16 @@ class VersionDialog extends Component {
             }
           })}
           <Timeline.Item>
-            了解更多，请查看
+            编辑器制作感谢Github开源社区，了解更多请查看
             <a
               id="nice-version-dialog-doc"
               style={{fontWeight: "bold"}}
               alt=""
-              href="https://preview.mdnice.com/articles/"
-              rel="noopener noreferrer"
+              href="https://github.com/mdnice/markdown-nice"
+              rel="noopener nor改eferrer"
               target="_blank"
             >
-              用户与开发者文档
+              🚀Github开源项目：Markdown Nice
             </a>
           </Timeline.Item>
           {this.state.recommend && (
