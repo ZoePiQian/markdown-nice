@@ -8,7 +8,6 @@ import Pattern from "../component/MenuLeft/Pattern";
 import Function from "../component/MenuLeft/Function";
 import Theme from "../component/MenuLeft/Theme";
 import CodeTheme from "../component/MenuLeft/CodeTheme";
-import Setting from "../component/MenuLeft/Setting";
 import View from "../component/MenuLeft/View";
 
 import "./Navbar.css";
