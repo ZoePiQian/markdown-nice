@@ -35,7 +35,7 @@ class Theme extends React.Component {
 
   subscribeMore = () => {
     const w = window.open("about:blank");
-    w.location.href = "https://preview.mdnice.com/themes";
+    w.location.href = "https://mp.weixin.qq.com/s/aMJHXw57oOYzQwGJGdTVag";
   };
 
   componentDidMount = async () => {
@@ -120,7 +120,7 @@ class Theme extends React.Component {
           <div id="nice-menu-subscribe-more" className="nice-themeselect-theme-item" onClick={this.subscribeMore}>
             <span>
               <span className="nice-themeselect-theme-item-flag" />
-              <span className="nice-themeselect-theme-item-name nice-menu-subscribe-more">订阅更多主题</span>
+              <span className="nice-themeselect-theme-item-name nice-menu-subscribe-more">查看「商业内观」用编辑器排版后的内容</span>
             </span>
           </div>
         </li>
