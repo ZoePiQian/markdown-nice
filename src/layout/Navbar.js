@@ -3,6 +3,7 @@ import {observer, inject} from "mobx-react";
 import classnames from "classnames";
 
 import File from "../component/MenuLeft/File";
+import Help from "../component/MenuLeft/Help";
 import Tutorial from "../component/MenuLeft/Tutorial";
 import Pattern from "../component/MenuLeft/Pattern";
 import Function from "../component/MenuLeft/Function";
@@ -38,6 +39,7 @@ class Navbar extends Component {
           <Theme token={token} />
           <CodeTheme />
           <Setting />
+          <Help />
           <Tutorial />
         </div>
         <div className="nice-right-nav" />
