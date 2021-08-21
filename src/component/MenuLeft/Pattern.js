@@ -7,7 +7,6 @@ import Del from "./Pattern/Del";
 import Italic from "./Pattern/Italic";
 import Link from "./Pattern/Link";
 import Form from "./Pattern/Form";
-import Image from "./Pattern/Image";
 import Format from "./Pattern/Format";
 import LinkToFoot from "./Pattern/LinkToFoot";
 import Font from "./Pattern/Font";
